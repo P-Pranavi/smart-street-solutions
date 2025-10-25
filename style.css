@@ -1,0 +1,35 @@
+body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.light {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 20px auto;
+  transition: background 0.5s, box-shadow 0.5s;
+}
+
+.on {
+  background-color: yellow;
+  box-shadow: 0 0 40px yellow;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
